@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>El Cuento de Firulé • Sala Lila • Familia de Isaí</title>
+  
+  <!-- OpenGraph / WhatsApp preview meta tags -->
+  <meta property="og:title" content="El Cuento de Firulé • Sala Lila • Isaí">
+  <meta property="og:description" content="Proyecto escolar para el jardín. ¡Mirá el dibujo de Isaí transformado en cuento animado con música de Canticuénticos!">
+  <meta property="og:image" content="assets/firule/01_portada_ia.jpg">
+  <meta property="og:type" content="video.other">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐶</text></svg>">
+
+  <!-- Google Fonts: Fredoka & Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- Floating decorative background doodles -->
+  <div class="background-decorations" aria-hidden="true">
+    <span class="decor decor-1">🐾</span>
+    <span class="decor decor-2">⭐</span>
+    <span class="decor decor-3">🦴</span>
+    <span class="decor decor-4">❤️</span>
+    <span class="decor decor-5">🐾</span>
+    <span class="decor decor-6">🍂</span>
+    <span class="decor decor-7">✨</span>
+    <span class="decor decor-8">🎨</span>
+  </div>
+
+  <header class="header">
+    <div class="container header-container">
+      <div class="tag-badge">🏫 Jardín de Infantes • Sala Lila</div>
+      
+      <!-- Magnetic letters title -->
+      <h1 class="magnetic-title" aria-label="Firulé Isaí">
+        <span class="magnet-word">
+          <span class="magnet red">F</span>
+          <span class="magnet yellow">I</span>
+          <span class="magnet blue">R</span>
+          <span class="magnet green">U</span>
+          <span class="magnet orange">L</span>
+          <span class="magnet purple">É</span>
+        </span>
+        <span class="magnet-space"></span>
+        <span class="magnet-word">
+          <span class="magnet teal">I</span>
+          <span class="magnet coral">S</span>
+          <span class="magnet gold">A</span>
+          <span class="magnet pink">Í</span>
+        </span>
+      </h1>
+      
+      <p class="subtitle">
+        Basado en el entrañable cuento y canción de <strong>Canticuénticos</strong>.<br>
+        Dibujado, presentado y protagonizado por <strong>Isaí</strong> (4 años) junto a su familia.
+      </p>
+
+      <div class="header-actions">
+        <button id="btnScrollToVideo" class="btn btn-primary pulse-btn">
+          <span>▶</span> Ver Cuento Animado
+        </button>
+        <button id="btnScrollToCompare" class="btn btn-secondary">
+          <span>🎨</span> Del Pizarrón a la Ilustración
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    
+    <!-- VIDEO HERO SECTION -->
+    <section id="seccion-video" class="section video-section">
+      <div class="container">
+        <div class="card video-card">
+          <div class="card-header">
+            <span class="card-icon">🎬</span>
+            <div class="card-header-text">
+              <h2 class="card-title">El Cuento Animado</h2>
+              <p class="card-subtitle">Con la voz real de Isaí, efectos mágicos y la música original</p>
+            </div>
+          </div>
+
+          <div class="video-wrapper">
+            <video id="playerVideo" playsinline controls preload="metadata" poster="assets/firule/01_portada_ia.jpg">
+              <source src="cuento_firule_isai.mp4" type="video/mp4">
+              Tu navegador no soporta reproducción de video.
+            </video>
+            <div id="videoOverlay" class="video-overlay">
+              <button id="btnBigPlay" class="big-play-btn" aria-label="Reproducir Cuento">
+                <span>▶</span>
+              </button>
+              <div class="overlay-text">Tocá para escuchar el cuento</div>
+            </div>
+          </div>
+
+          <div class="video-footer">
+            <div class="video-status-box">
+              <span id="videoStatusText">💡 Al terminar el video, ¡festejamos con Isaí!</span>
+            </div>
+            <div class="video-buttons">
+              <button id="btnDispararFestejo" class="btn btn-sm btn-festejo">
+                🎉 ¡Festejar con Confeti!
+              </button>
+              <a href="audio_final_master.mp3" download="Cuento_Firule_Isai_Master.mp3" class="btn btn-sm btn-download">
+                🎧 Descargar Audio MP3
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE BEFORE/AFTER SLIDER SECTION -->
+    <section id="seccion-comparador" class="section compare-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">✨ Creatividad de la Sala Lila</span>
+          <h2 class="section-title">Del Pizarrón al Cuento</h2>
+          <p class="section-desc">
+            Deslizá la barra central para comparar el dibujo real que hizo Isaí con marcador en su pizarra 
+            y cómo cobró vida con la estética y el colorido de Canticuénticos.
+          </p>
+        </div>
+
+        <div class="card compare-card">
+          <div class="ba-slider-container" id="baSlider" role="slider" tabindex="0" aria-label="Comparador interactivo: Dibujo original de Isaí vs Versión Cuento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+            <!-- Imagen "Después" (Ilustración Cuento) fondo -->
+            <img src="assets/firule/01_portada_ia.jpg" alt="Ilustración estilo Canticuénticos" class="ba-image ba-after">
+            
+            <!-- Imagen "Antes" (Dibujo Real Isaí) encima con clip -->
+            <div class="ba-before-wrapper" id="baBeforeWrapper">
+              <img src="assets/firule/00_dibujo_original_isai.jpg" alt="Dibujo original de Isaí en la pizarra" class="ba-image ba-before">
+            </div>
+            
+            <!-- Etiquetas independientes protegidas de clip-path -->
+            <span class="ba-label label-before">🖍️ Dibujo Real de Isaí</span>
+            <span class="ba-label label-after">✨ Versión Cuento</span>
+
+            <!-- Control deslizante -->
+            <div class="ba-handle" id="baHandle">
+              <div class="ba-handle-line"></div>
+              <div class="ba-handle-circle">
+                <span class="handle-arrow">◀</span>
+                <span class="handle-arrow">▶</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="compare-legend">
+            <div class="legend-item">
+              <span class="legend-dot dot-isai"></span>
+              <p><strong>El Dibujo de Isaí:</strong> Firulé (el perrito tuerto de orejas caídas), su enamorada y las letras imantadas "FIRULE ISA".</p>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot dot-ia"></span>
+              <p><strong>La Transformación:</strong> Textura artesanal de papel recortado y acuarela inspirada en Estrellita Caracol.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY LAMINAS GALLERY -->
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <span class="section-tag">📖 Láminas del Cuento</span>
+          <h2 class="section-title">Recorré la Historia Paso a Paso</h2>
+          <p class="section-desc">
+            Cada escena ilustrada acompaña los momentos clave de la narración de Firulé y María.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Lamina 1 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/01_portada_ia.jpg" alt="Portada de Firulé" loading="lazy">
+              <span class="step-num">Escena 1</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Firulé, un perro con suerte</h3>
+              <p>Chiquito, con orejas grandes caídas y un ojo tuerto que siempre parece sonreír.</p>
+            </div>
+          </article>
+
+          <!-- Lamina 2 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/02_paseo_parque.jpg" alt="Paseo por el parque" loading="lazy">
+              <span class="step-num">Escena 2</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Los paseos con María</h3>
+              <p>A María le encanta llevar a Firulé todos los días al parque con su correa para jugar bajo el sol.</p>
+            </div>
+          </article>
+
+          <!-- Lamina 3 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/02b_tropiezo_pantufla_pasillo.jpg" alt="El tropiezo y la pantufla" loading="lazy">
+              <span class="step-num">Escena 3</span>
+            </div>
+            <div class="gallery-info">
+              <h3>¡La pantufla voladora!</h3>
+              <p>Tocaron el timbre, María trastabilló apurada en el pasillo y la pantufla voló por el aire abriendo la puerta.</p>
+            </div>
+          </article>
+
+          <!-- Lamina 4 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/02c_firule_vereda_vecinos.jpg" alt="Firulé en la vereda saludando vecinos" loading="lazy">
+              <span class="step-num">Escena 4</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Haciéndose el oso en la vereda</h3>
+              <p>Firulé aprovechó el descuido y salió tranquilo, sin correa, saludando con confianza a los vecinos.</p>
+            </div>
+          </article>
+
+          <!-- Lamina 5 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/04_cuneta_enamorado.jpg" alt="La cuneta y la perrita" loading="lazy">
+              <span class="step-num">Escena 5</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Amor en la cuneta</h3>
+              <p>Firulé armó una camita de hojas secas y descubrió a una hermosa perrita husmeando... ¡flechazo total!</p>
+            </div>
+          </article>
+
+          <!-- Lamina 6 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/04b_enamorados_vereda.jpg" alt="Enamorados por la vereda" loading="lazy">
+              <span class="step-num">Escena 6</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Completamente enamorados</h3>
+              <p>Paseando juntos bajo los árboles dorados de otoño con la alegría de haberse encontrado.</p>
+            </div>
+          </article>
+
+          <!-- Lamina 7 -->
+          <article class="gallery-card">
+            <div class="gallery-img-box">
+              <img src="assets/firule/05_final_casa.jpg" alt="Final feliz en casa" loading="lazy">
+              <span class="step-num">Escena 7</span>
+            </div>
+            <div class="gallery-info">
+              <h3>Final feliz en familia</h3>
+              <p>María abrió la puerta de par en par y recibió a los dos perritos adentro del hogar calentito.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDITS & ORIGINAL SONG -->
+    <section class="section credits-section">
+      <div class="container">
+        <div class="card credits-card">
+          <div class="credits-grid">
+            <div class="credits-text">
+              <span class="section-tag">🎵 Homenaje Musical</span>
+              <h2>Canticuénticos en el Corazón</h2>
+              <p>
+                Este proyecto nace del amor de nuestra familia por las canciones de <strong>Canticuénticos</strong>, 
+                cuyas historias llenan de música, juegos de palabras e imaginación los días en el jardín y en casa.
+              </p>
+              <ul class="credits-list">
+                <li><strong>Autoría canción:</strong> Daniela Ranallo y Gastón Menguez</li>
+                <li><strong>Estilo visual de referencia:</strong> Estrellita Caracol (editorial Gerbera)</li>
+                <li><strong>Presentación y dibujo:</strong> Isaí (4 años) • Sala Lila</li>
+                <li><strong>Voces:</strong> Isaí y Mamá</li>
+              </ul>
+              
+              <div class="credits-buttons">
+                <a href="https://www.youtube.com/watch?v=-kmTO9s9LXA" target="_blank" rel="noopener noreferrer" id="btnSongLink" class="btn btn-youtube">
+                  <span class="yt-icon">▶</span> Escuchar Versión de Canticuénticos
+                </a>
+              </div>
+            </div>
+
+            <div class="qr-preview-box">
+              <div class="qr-frame">
+                <img src="qr_code_solo.png" alt="Código QR directo del Cuento de Isaí" id="qrImgPreview">
+              </div>
+              <p class="qr-caption">Escaneá este código QR con la cámara de tu celular para abrir o compartir este cuento</p>
+              <div style="margin-top: 14px;">
+                <a href="qr_imprimible_jardin.png" download="afiche_firule_sala_lila.png" class="btn btn-secondary btn-sm" style="width: 100%; justify-content: center;">
+                  📥 Descargar Afiche A4 para Imprimir
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>❤️ Hecho con amor para la Sala Lila del jardín • Familia de Isaí</p>
+      <p class="footer-small">"Y así termina este cuen... ¡TO! De un perro con mucha suer... ¡TE! Que se llama... ¡FIRULÉ!"</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

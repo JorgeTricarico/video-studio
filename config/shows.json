@@ -1,0 +1,512 @@
+{
+  "fm_en_transito": {
+    "name": "FM En Tránsito • Entrevista Johanna Tricarico",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Johanna_FMEnTransito.mp4",
+    "crop_speaker": "crop=800:770:1060:26,scale=1080:1040,setsar=1:1",
+    "crop_background": "crop=960:1080:960:0,scale=270:480,boxblur=20:2,scale=1080:1920,setsar=1:1",
+    "overlay_y": 260,
+    "live_pill_y": 1320,
+    "subs_y": 1460,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/03_Campaña_Octubre_Johanna_FMEnTransito",
+    "zip_name": "REELS_Octubre_Johanna_FM_En_Transito_Completo.zip",
+    "reels": [
+      {
+        "id": "01_Johanna_Vencimiento_Ley_Pediatrica_Colectivo",
+        "title": "El 21 de Octubre Vence la Ley de Salud Pediátrica",
+        "hook": "EL 21 DE OCTUBRE SE VENCE LA LEY",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "start": 126.5,
+        "end": 202.6,
+        "filename": "01_Johanna_Vencimiento_Ley_Pediatrica_21Oct.mp4"
+      },
+      {
+        "id": "02_Johanna_Nombre_y_Apellido_Voto_Legisladores",
+        "title": "Que se Sepa con Nombre y Apellido Quién Vota a Favor y Quién en Contra",
+        "hook": "QUE SE SEPA CON NOMBRE Y APELLIDO",
+        "live": "EN VIVO • FM EN TRANSITO",
+        "start": 331.5,
+        "end": 368.0,
+        "filename": "02_Johanna_Nombre_y_Apellido_Voto_Legisladores.mp4"
+      },
+      {
+        "id": "03_Johanna_Motosierra_Garrahan_Presupuesto",
+        "title": "Motosierra al Hospital Garrahan en el Presupuesto",
+        "hook": "LE METIERON LA MOTOSIERRA AL GARRAHAN",
+        "live": "ALERTA PRESUPUESTO NACIONAL",
+        "start": 247.0,
+        "end": 299.3,
+        "filename": "03_Johanna_Motosierra_Garrahan_Presupuesto.mp4"
+      },
+      {
+        "id": "04_Johanna_F16_vs_Discapacidad_Yates_de_Lujo",
+        "title": "Más Plata para los F16 que para Discapacidad",
+        "hook": "MAS PLATA A LOS F16 QUE A DISCAPACIDAD",
+        "live": "EMERGENCIA EN DISCAPACIDAD",
+        "start": 905.5,
+        "end": 1003.8,
+        "filename": "04_Johanna_F16_vs_Discapacidad_Yates_Lujo.mp4"
+      },
+      {
+        "id": "05_Johanna_Llamado_Familias_Pais_Caso_Nena_Cobrada",
+        "title": "Llamado a las Familias de Todo el País: Exijan a Diputados y Senadores",
+        "hook": "HINCHENLE A SUS DIPUTADOS Y SENADORES",
+        "live": "CONVOCATORIA FEDERAL • SOY GARRAHAN",
+        "start": 1085.35,
+        "end": 1135.8,
+        "filename": "05_Johanna_Llamado_Familias_Pais_Caso_Nena.mp4"
+      }
+    ]
+  },
+  "radio_10": {
+    "name": "Radio 10 • Entrevista Johanna Tricarico",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Johanna_Radio10.mp4",
+    "crop_speaker": "crop=840:705:540:60,scale=1080:906,setsar=1:1",
+    "crop_background": "crop=608:1080:656:0,scale=270:480,boxblur=20:2,scale=1080:1920,setsar=1:1",
+    "overlay_y": 260,
+    "live_pill_y": 1190,
+    "subs_y": 1400,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/04_Campaña_Octubre_Johanna_Radio10",
+    "zip_name": "REELS_Octubre_Johanna_Radio10_Completo.zip",
+    "whisper_json": "assets/johanna_radio10_whisper.json",
+    "reels": [
+      {
+        "id": "01_Johanna_Nueva_Ley_Salud_Pediatrica_Nacional",
+        "title": "Proyecto Nueva Ley de Salud Pediátrica Nacional",
+        "hook": "NUESTROS HIJOS EN PELIGRO",
+        "live": "COMUNICACION EN VIVO - RADIO 10",
+        "slices": [{"start": 471.5, "end": 520.0}],
+        "filename": "01_Johanna_Nueva_Ley_Salud_Pediatrica_Nacional.mp4"
+      },
+      {
+        "id": "02_Johanna_La_Trampa_Del_Gobierno_Quisieron_Apagar_La_Lucha",
+        "title": "La Trampa del Gobierno: Quisieron Apagar la Lucha",
+        "hook": "QUISIERON APAGAR LA LUCHA",
+        "live": "COMUNICACION EN VIVO - RADIO 10",
+        "slices": [{"start": 66.8, "end": 111.8}],
+        "filename": "02_Johanna_La_Trampa_Del_Gobierno_Quisieron_Apagar_La_Lucha.mp4"
+      },
+      {
+        "id": "03_Johanna_Medicamentos_Millonarios_Caso_Bayron",
+        "title": "Medicamentos Millonarios y el Caso de Bayron en Moreno",
+        "hook": "QUE ESPERAN QUE QUEDE CIEGO",
+        "live": "COMUNICACION EN VIVO - RADIO 10",
+        "slices": [
+          {"start": 280.7, "end": 291.8},
+          {"start": 330.4, "end": 361.5}
+        ],
+        "filename": "03_Johanna_Medicamentos_Millonarios_Caso_Bayron.mp4"
+      }
+    ]
+  },
+  "apl_voces_del_interior": {
+    "name": "Voces del Interior • Entrevista Graciela del Valle Ferreira",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Graciela_VocesDelInterior.mp4",
+    "crop_speaker": "crop=288:512:456:45,scale=1080:1920:flags=lanczos,unsharp=5:5:0.8:3:3:0.4,setsar=1:1",
+    "overlay_y": 0,
+    "live_pill_y": 230,
+    "subs_y": 1450,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/02_Campaña_Octubre_Graciela_VocesDelInterior",
+    "zip_name": "REELS_Octubre_Graciela_Voces_Del_Interior_Completo.zip",
+    "reels": [
+      {
+        "id": "01_Graciela_La_Ilusion_De_La_Prepaga_Garrahan",
+        "title": "La Ilusión de la Prepaga: Llegar al Garrahan Desesperado",
+        "hook": "UNA OBRA SOCIAL ESPLÉNDIDA... PERO NO LE DABAN EL DIAGNÓSTICO",
+        "live": "GRACIELA DEL VALLE • SOY GARRAHAN",
+        "start": 54.50,
+        "end": 121.25,
+        "filename": "01_Graciela_La_Ilusion_De_La_Prepaga_Garrahan.mp4"
+      },
+      {
+        "id": "02_Graciela_Que_Es_Soy_Garrahan_Red_Federal",
+        "title": "Qué es Soy Garrahan: Red Federal en Defensa de la Salud Pediátrica",
+        "hook": "NOSOTRAS ESTAMOS ORGANIZADAS EN DEFENSA DE LA SALUD PEDIÁTRICA",
+        "live": "GRACIELA DEL VALLE • SOY GARRAHAN",
+        "start": 262.60,
+        "end": 312.00,
+        "filename": "02_Graciela_Que_Es_Soy_Garrahan_Red_Federal.mp4"
+      },
+      {
+        "id": "03_Graciela_21Oct_Cae_Ley_Emergencia_Pediatrica",
+        "title": "21 de Octubre: Cae la Ley de Emergencia Pediátrica",
+        "hook": "EL 21 DE OCTUBRE VENCE LA LEY DE EMERGENCIA PEDIÁTRICA",
+        "live": "ALERTA • VENCE LEY DE EMERGENCIA",
+        "start": 429.70,
+        "end": 489.00,
+        "filename": "03_Graciela_21Oct_Cae_Ley_Emergencia_Pediatrica.mp4"
+      },
+      {
+        "id": "04_Graciela_El_Garrahan_No_Gano_Hablo_Al_Distraido",
+        "title": "El Garrahan NO Ganó: Le Hablo al Distraído",
+        "hook": "EL GARRAHAN NO GANÓ: LE HABLO AL DISTRAÍDO",
+        "live": "EL GARRAHAN NO GANO • EN LUCHA",
+        "start": 489.20,
+        "end": 538.00,
+        "filename": "04_Graciela_El_Garrahan_No_Gano_Hablo_Al_Distraido.mp4"
+      },
+      {
+        "id": "05_Graciela_15Oct_Plaza_De_Mayo_Quita_Penas",
+        "title": "15 de Octubre 15hs: Plaza de Mayo con las Quita Penas",
+        "hook": "15 DE OCTUBRE: TODOS A PLAZA DE MAYO",
+        "live": "CONVOCATORIA • 15 DE OCTUBRE 15 HS",
+        "start": 538.10,
+        "end": 581.50,
+        "filename": "05_Graciela_15Oct_Plaza_De_Mayo_Quita_Penas.mp4"
+      }
+    ]
+  },
+  "septiembre_johanna_antonela": {
+    "name": "Campaña Histórica Septiembre • Johanna & Antonela",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Antonela_Ciclico.mp4",
+    "output_dir": "01_Reels_Finales_Subtitulados/01_Campaña_Septiembre_Johanna_Antonela",
+    "zip_name": "REELS_Septiembre_Johanna_Antonela_Completo.zip",
+    "reels": [
+      {
+        "id": "01_Johanna_Caso_Bayron_Cancer_Auditorias",
+        "title": "Caso Bayron: Cáncer y Auditorías",
+        "hook": "¿QUÉ ESPERAN, QUE MUERA?",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "01_Johanna_Caso_Bayron_Cancer_Auditorias.mp4"
+      },
+      {
+        "id": "02_Johanna_Caso_Cristian_15_Anos_Leches",
+        "title": "Caso Cristian: 15 Años y las Leches Medicamentosas",
+        "hook": "CRISTIAN TENÍA 15 AÑOS",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "02_Johanna_Caso_Cristian_15_Anos_Leches.mp4"
+      },
+      {
+        "id": "03_Johanna_No_Los_Mata_La_Enfermedad_Mata_El_Estado",
+        "title": "No los Mata la Enfermedad: Mata el Estado",
+        "hook": "NO LOS MATA LA ENFERMEDAD",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "03_Johanna_No_Los_Mata_La_Enfermedad_Mata_El_Estado.mp4"
+      },
+      {
+        "id": "04_Johanna_Presupuesto_Congelado_Medicamentos_3000",
+        "title": "Presupuesto Congelado con Inflación del 3000%",
+        "hook": "LOS PIBES MÁS ENFERMOS",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "04_Johanna_Presupuesto_Congelado_Medicamentos_3000.mp4"
+      },
+      {
+        "id": "05_Johanna_Hospital_Publico_No_Tiene_Banderas",
+        "title": "El Hospital Garrahan No Tiene Banderas Partidarias",
+        "hook": "LA SALUD NO TIENE BANDERAS",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "05_Johanna_Hospital_Publico_No_Tiene_Banderas.mp4"
+      },
+      {
+        "id": "06_Johanna_La_Prepaga_No_Alcanzo_Solo_El_Garrahan",
+        "title": "La Prepaga No Alcanzó: Solo el Garrahan Dio Respuesta",
+        "hook": "LA PREPAGA NO ALCANZÓ",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "06_Johanna_La_Prepaga_No_Alcanzo_Solo_El_Garrahan.mp4"
+      },
+      {
+        "id": "07_Johanna_Dilema_Etico_Trasplante_Sin_Medicacion",
+        "title": "Dilema Ético: Esperar Trasplante sin Medicación",
+        "hook": "EL DILEMA DE UN TRASPLANTE",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "07_Johanna_Dilema_Etico_Trasplante_Sin_Medicacion.mp4"
+      },
+      {
+        "id": "08_Johanna_La_Pelea_Es_Colectiva",
+        "title": "La Pelea es Colectiva, No Individual",
+        "hook": "LA PELEA ES COLECTIVA",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "filename": "08_Johanna_La_Pelea_Es_Colectiva.mp4"
+      },
+      {
+        "id": "09_Antonela_Tumor_Oido_7_Anos_Solo_Garrahan",
+        "title": "Tumor en el Oído: 7 Años Peregrinando hasta el Garrahan",
+        "hook": "EL TUMOR QUE NADIE DETECTABA",
+        "live": "ANTONELA • SOY GARRAHAN",
+        "speaker": "Antonela",
+        "filename": "09_Antonela_Tumor_Oido_7_Anos_Solo_Garrahan.mp4"
+      },
+      {
+        "id": "10_Antonela_Obra_Social_Ghosteo_Implante_Coclear",
+        "title": "La Obra Social Ghosteó el Implante Coclear",
+        "hook": "LA OBRA SOCIAL NOS GHOSTEO",
+        "live": "ANTONELA • SOY GARRAHAN",
+        "speaker": "Antonela",
+        "filename": "10_Antonela_Obra_Social_Ghosteo_Implante_Coclear.mp4"
+      },
+      {
+        "id": "11_Antonela_Que_El_Garrahan_Siga_Salvando_Vidas",
+        "title": "Que el Garrahan Siga Abierto Salvando Vidas",
+        "hook": "QUE EL GARRAHAN SIGA SALVANDO",
+        "live": "ANTONELA • SOY GARRAHAN",
+        "speaker": "Antonela",
+        "filename": "11_Antonela_Que_El_Garrahan_Siga_Salvando_Vidas.mp4"
+      },
+      {
+        "id": "12_Antonela_Ninos_Vivos_Discapacidad_Natalidad",
+        "title": "Hablan de Natalidad pero Desfinancian a Niños Vivos",
+        "hook": "¿Y LOS NIÑOS QUE VIVEN?",
+        "live": "ANTONELA • SOY GARRAHAN",
+        "speaker": "Antonela",
+        "filename": "12_Antonela_Ninos_Vivos_Discapacidad_Natalidad.mp4"
+      }
+    ]
+  },
+  "am530_somos_radio": {
+    "name": "Somos Radio AM 530 • Entrevista Johanna Tricarico",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Johanna_AM530.mp4",
+    "crop_speaker": "scale=1080:608,setsar=1:1",
+    "crop_background": "scale=270:480,boxblur=25:2,scale=1080:1920,setsar=1:1",
+    "overlay_y": 340,
+    "live_pill_y": 980,
+    "subs_y": 1380,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/05_Campaña_Octubre_Johanna_AM530",
+    "zip_name": "REELS_Octubre_Johanna_AM530_Completo.zip",
+    "reels": [
+      {
+        "id": "01_Johanna_Caso_Nena_Salta_DNI_Cirugia",
+        "title": "Caso Nena de Salta: Suspendieron su Cirugía por Falta de DNI",
+        "hook": "LE SUSPENDIERON LA CIRUGÍA POR FALTA DE DNI",
+        "live": "JOHANNA TRICARICO • SOMOS RADIO AM 530",
+        "speaker": "Johanna Tricarico",
+        "start": 112.50,
+        "end": 175.75,
+        "filename": "01_Johanna_Caso_Nena_Salta_DNI_Cirugia.mp4"
+      },
+      {
+        "id": "02_Johanna_Cancer_No_Espera_Auditorias_Mata",
+        "title": "El Cáncer No Va a Esperar una Auditoría: El Estado los Está Matando",
+        "hook": "EL CÁNCER NO VA A ESPERAR A UNA AUDITORÍA",
+        "live": "ALERTA ONCOLÓGICA • AM 530",
+        "speaker": "Johanna Tricarico",
+        "start": 300.20,
+        "end": 324.20,
+        "filename": "02_Johanna_Cancer_No_Espera_Auditorias_Mata.mp4"
+      },
+      {
+        "id": "03_Johanna_Sector_Privado_No_Vio_Tumor_3_Resonancias",
+        "title": "En 3 Resonancias Privadas No Vieron el Tumor: El Garrahan Salva Vidas",
+        "hook": "EN 3 RESONANCIAS PRIVADAS NO LO VIERON",
+        "live": "ALTA COMPLEJIDAD • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "start": 336.00,
+        "end": 408.30,
+        "filename": "03_Johanna_Sector_Privado_No_Vio_Tumor_3_Resonancias.mp4"
+      },
+      {
+        "id": "04_Johanna_Munecas_Quita_Penas_Plaza_De_Mayo",
+        "title": "Marchamos con las Muñecas Quita Penas por los Chicos que No Pueden Hablar",
+        "hook": "MARCHAMOS POR LOS QUE NO PUEDEN HABLAR",
+        "live": "CONVOCATORIA • 15 DE OCTUBRE",
+        "speaker": "Johanna Tricarico",
+        "start": 425.00,
+        "end": 459.20,
+        "filename": "04_Johanna_Munecas_Quita_Penas_Plaza_De_Mayo.mp4"
+      },
+      {
+        "id": "05_Johanna_Caso_Cristian_Santiago_Murio_De_Hambre",
+        "title": "Cristian se Murió de Hambre en Santiago: Incluir Salud No Entregó las Leches",
+        "hook": "CRISTIAN SE MURIÓ DE HAMBRE POR FALTA DE LECHE",
+        "live": "TESTIMONIO URGENTE • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "start": 530.80,
+        "end": 562.10,
+        "filename": "05_Johanna_Caso_Cristian_Santiago_Murio_De_Hambre.mp4"
+      }
+    ]
+  },
+  "diputados_comision_salud": {
+    "name": "Comisión de Salud Diputados • Johanna Tricarico",
+    "source_video": "02_Entrevistas_Completas/WhatsApp Video 2026-10-14 at 13.49.59.mp4",
+    "crop_speaker": "crop=728:472:120:0,scale=1080:700:flags=lanczos,unsharp=5:5:0.8:3:3:0.4,setsar=1:1",
+    "crop_background": "scale=270:480,boxblur=20:2,scale=1080:1920,setsar=1:1,eq=brightness=-0.14:contrast=1.1",
+    "overlay_y": 310,
+    "live_pill_y": 230,
+    "subs_y": 1450,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/06_Campaña_Octubre_Johanna_Diputados_ComisionSalud",
+    "zip_name": "REELS_Octubre_Johanna_Diputados_Completo.zip",
+    "whisper_json": "scratch/analysis_2026_10_14/transcript.json",
+    "reels": [
+      {
+        "id": "01_Johanna_Cuanto_Vale_La_Vida_De_Un_Nino",
+        "title": "¿Cuánto vale la vida de un niño para este país?",
+        "hook": "¿CUÁNTO VALE LA VIDA DE UN NIÑO PARA ESTE PAÍS?",
+        "live": "JOHANNA TRICARICO • COMISIÓN DE SALUD DIPUTADOS",
+        "speaker": "Johanna Tricarico",
+        "start": 649.20,
+        "end": 695.30,
+        "filename": "01_Johanna_Cuanto_Vale_La_Vida_De_Un_Nino.mp4"
+      },
+      {
+        "id": "02_Johanna_Dejen_De_Mirar_Las_Planillas",
+        "title": "Dejen de mirar las planillas presupuestarias: El Garrahan salva vidas",
+        "hook": "DEJEN DE MIRAR LAS PLANILLAS Y NÚMEROS",
+        "live": "JOHANNA TRICARICO • CARTA DE LAS FAMILIAS",
+        "speaker": "Johanna Tricarico",
+        "start": 105.20,
+        "end": 165.60,
+        "filename": "02_Johanna_Dejen_De_Mirar_Las_Planillas.mp4"
+      },
+      {
+        "id": "03_Johanna_No_Es_Un_Ajuste_Es_Exterminio",
+        "title": "No es un ajuste, es un plan de exterminio (Necropolítica) [v1 Original]",
+        "hook": "NO ES UN AJUSTE, ES UN PLAN DE EXTERMINIO",
+        "live": "JOHANNA TRICARICO • COMISIÓN DE SALUD",
+        "speaker": "Johanna Tricarico",
+        "start": 58.85,
+        "end": 104.50,
+        "filename": "03_Johanna_No_Es_Un_Ajuste_Es_Exterminio.mp4"
+      },
+      {
+        "id": "03_Johanna_No_Es_Un_Ajuste_Es_Exterminio_v2",
+        "title": "No es un ajuste, es un plan de exterminio (Necropolítica) [v2 Editada sin trabas]",
+        "hook": "NO ES UN AJUSTE, ES UN PLAN DE EXTERMINIO",
+        "live": "JOHANNA TRICARICO • COMISIÓN DE SALUD",
+        "speaker": "Johanna Tricarico",
+        "slices": [
+          {"start": 58.85, "end": 76.40},
+          {"start": 78.85, "end": 104.50}
+        ],
+        "filename": "03_Johanna_No_Es_Un_Ajuste_Es_Exterminio_v2.mp4"
+      },
+      {
+        "id": "04_Johanna_Vence_Ley_Emergencia_Pediatrica",
+        "title": "Nuestros hijos no se curan porque se venza una ley (Ley 27.796)",
+        "hook": "NUESTROS HIJOS NO SE CURAN PORQUE SE VENZA UNA LEY",
+        "live": "ALERTA • VENCE LEY DE EMERGENCIA",
+        "speaker": "Johanna Tricarico",
+        "start": 291.45,
+        "end": 353.30,
+        "filename": "04_Johanna_Vence_Ley_Emergencia_Pediatrica.mp4"
+      },
+      {
+        "id": "05_Johanna_Las_Enfermedades_No_Preguntan_Que_Votaste",
+        "title": "Las enfermedades no preguntan a quién votaste",
+        "hook": "LA ENFERMEDAD NO PREGUNTA A QUIÉN VOTASTE",
+        "live": "SOY GARRAHAN • DERECHOS HUMANOS",
+        "speaker": "Johanna Tricarico",
+        "start": 406.25,
+        "end": 443.05,
+        "filename": "05_Johanna_Las_Enfermedades_No_Preguntan_Que_Votaste.mp4"
+      },
+      {
+        "id": "06_Johanna_Detras_De_Cada_Numero_Hay_Un_Nino",
+        "title": "Detrás de cada número hay un niño: No queremos venir a contar que murieron",
+        "hook": "DETRÁS DE CADA NÚMERO HAY UN NIÑO",
+        "live": "JOHANNA TRICARICO • COMISIÓN DE SALUD",
+        "speaker": "Johanna Tricarico",
+        "start": 498.90,
+        "end": 545.35,
+        "filename": "06_Johanna_Detras_De_Cada_Numero_Hay_Un_Nino.mp4"
+      },
+      {
+        "id": "07_Johanna_No_Discuten_Dinero_Deciden_Vida_De_Un_Nino",
+        "title": "No Están Discutiendo Solamente Dinero: Deciden la Vida de un Niño",
+        "hook": "NO DISCUTEN DINERO, DECIDEN LA VIDA DE UN NIÑO",
+        "live": "JOHANNA TRICARICO • COMISIÓN DE SALUD",
+        "speaker": "Johanna Tricarico",
+        "start": 220.65,
+        "end": 263.72,
+        "filename": "07_Johanna_No_Discuten_Dinero_Deciden_Vida_De_Un_Nino.mp4"
+      },
+      {
+        "id": "08_Johanna_Nuestros_Hijos_No_Entran_En_Un_Excel",
+        "title": "La Vida de Nuestros Hijos No Puede Quedar Subordinada a un Excel",
+        "hook": "NUESTROS HIJOS NO ENTRAN EN UN EXCEL",
+        "live": "JOHANNA TRICARICO • DIPUTADOS",
+        "speaker": "Johanna Tricarico",
+        "start": 588.80,
+        "end": 648.52,
+        "filename": "08_Johanna_Nuestros_Hijos_No_Entran_En_Un_Excel.mp4"
+      }
+    ]
+  },
+  "radio_universidad_laplata": {
+    "name": "Radio Universidad Nacional de La Plata • Entrevista Johanna Tricarico",
+    "source_video": "02_Entrevistas_Completas/Entrevista_Johanna_RadioUniversidadLaPlata.mp4",
+    "crop_speaker": "scale=1080:608,setsar=1:1",
+    "crop_background": "scale=270:480,boxblur=25:2,scale=1080:1920,setsar=1:1",
+    "overlay_y": 330,
+    "live_pill_y": 960,
+    "subs_y": 1380,
+    "audio_filter": "loudnorm=I=-14:TP=-2.0:LRA=11",
+    "output_dir": "01_Reels_Finales_Subtitulados/07_Campaña_Octubre_Johanna_RadioUniversidadLaPlata",
+    "zip_name": "REELS_Octubre_Johanna_Radio_Universidad_La_Plata_Completo.zip",
+    "whisper_json": "assets/radio_laplata_whisper.json",
+    "reels": [
+      {
+        "id": "01_Johanna_Nuestros_Hijos_No_Son_Una_Planilla",
+        "title": "Nuestros Hijos No Son un Número en una Planilla: Son Vidas",
+        "hook": "NUESTROS HIJOS NO SON UNA PLANILLA",
+        "live": "JOHANNA TRICARICO • RADIO U LA PLATA",
+        "speaker": "Johanna Tricarico",
+        "start": 197.4,
+        "end": 230.75,
+        "filename": "01_Johanna_Nuestros_Hijos_No_Son_Una_Planilla.mp4"
+      },
+      {
+        "id": "02_Johanna_El_Cancer_No_Espera_Auditorias",
+        "title": "El Cáncer No Va a Esperar 28 Auditorías",
+        "hook": "EL CANCER NO ESPERA AUDITORIAS",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "start": 236.45,
+        "end": 272.5,
+        "filename": "02_Johanna_El_Cancer_No_Espera_Auditorias.mp4"
+      },
+      {
+        "id": "03_Johanna_Viajar_Mil_Kilometros_Cirugias_Suspendidas",
+        "title": "Viajar Mil Kilómetros para que te Suspendan la Cirugía",
+        "hook": "VIAJAR MIL KM PARA QUE TE SUSPENDAN",
+        "live": "JOHANNA TRICARICO • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "start": 291.4,
+        "end": 339.1,
+        "filename": "03_Johanna_Viajar_Mil_Kilometros_Cirugias_Suspendidas.mp4"
+      },
+      {
+        "id": "04_Johanna_Necropolitica_El_Estado_Elige_Quien_Muere",
+        "title": "Necropolítica: El Estado Está Eligiendo Quién Vive y Quién Muere",
+        "hook": "EL ESTADO ELIGE QUIEN VIVE Y QUIEN MUERE",
+        "live": "EMERGENCIA EN SALUD PEDIATRICA",
+        "speaker": "Johanna Tricarico",
+        "start": 370.4,
+        "end": 398.85,
+        "filename": "04_Johanna_Necropolitica_El_Estado_Elige_Quien_Muere.mp4"
+      },
+      {
+        "id": "05_Johanna_Voten_Por_Los_Ninos_De_Sus_Provincias",
+        "title": "Diputados: Voten por los Niños de sus Provincias",
+        "hook": "VOTEN POR LOS NINOS DE SUS PROVINCIAS",
+        "live": "PROYECTO DE LEY • SOY GARRAHAN",
+        "speaker": "Johanna Tricarico",
+        "start": 398.95,
+        "end": 432.7,
+        "filename": "05_Johanna_Voten_Por_Los_Ninos_De_Sus_Provincias.mp4"
+      },
+      {
+        "id": "06_Johanna_Las_Munequitas_Quita_Penas_En_El_Congreso",
+        "title": "Las Muñequitas Quita Penas en el Congreso Representan a Cada Niño",
+        "hook": "LAS MUNEQUITAS EN EL CONGRESO",
+        "live": "EN VIVO • RADIO U LA PLATA",
+        "speaker": "Johanna Tricarico",
+        "start": 672.6,
+        "end": 721.3,
+        "filename": "06_Johanna_Las_Munequitas_Quita_Penas_En_El_Congreso.mp4"
+      }
+    ]
+  }
+}
+

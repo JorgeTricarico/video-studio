@@ -1,0 +1,88 @@
+# ==============================================================================
+# VIDEO STUDIO • GITIGNORE
+# ==============================================================================
+
+# Python & Entornos Virtuales
+__pycache__/
+*.py[oc]
+*.pyc
+.venv/
+env/
+venv/
+*.egg-info/
+build/
+dist/
+wheels/
+*.egg
+
+# Archivos de Video (todos los formatos pesados)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.m4v
+
+# Archivos de Audio
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+
+# Archivos Comprimidos y Paquetes
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Carpetas de Render, Salidas y Caché Temporal
+scratch/
+REELS_*/
+01_Reels_Finales_Subtitulados/
+02_Entrevistas_Completas/
+06_Paquetes_ZIP_Descargables/
+data/inputs/
+data/outputs/
+data/cache/
+netlify/
+dist_netlify.zip
+repomix-output.xml
+
+# Reportes y Pasaportes QA temporales generados
+*.qa.json
+
+# Imágenes sueltas en la raíz (bocetos personales, fotos de prueba, recortes)
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+
+# Carpetas de assets temporales / frames de prueba (manteniendo assets/logos)
+assets/eval_frames/
+assets/firule/
+assets/fmentransito_slices/
+assets/frames_radio10/
+assets/*.jpg
+assets/*.png
+assets/*.m4a
+assets/*.mp3
+assets/*.wav
+assets/*.mp4
+assets/*.json
+assets/*.vtt
+
+# Excepciones: Conservar los logos oficiales de marca
+!assets/logos/
+!assets/logos/**
+
+# Entornos, Logs y Sistema
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*

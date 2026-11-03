@@ -1,0 +1,21 @@
+brand:
+  id: "generic"
+  name: "Video Studio Default"
+  handle: ""
+  platform: "video"
+  logo_file: null
+
+outro:
+  enabled: false
+  duration: 0.0
+  slogan_main: ""
+  slogan_sub: ""
+  cta_text: ""
+
+styling:
+  primary_color: "#FFFFFF"
+  accent_color: "#00E5FF"
+  active_subtitle_color: "amarillo"
+  subtitles_safe_zone_y: 1450
+  enable_zooms: false
+  enable_branding_badge: false
